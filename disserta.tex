@@ -26,7 +26,7 @@
 %%   Grave accent  \`     Left brace    \{     Vertical bar  \|
 %%   Right brace   \}     Tilde         \~}
 %%
-\documentclass[dsc,numbers]{coppe}
+\documentclass[msc,numbers]{coppe}
 \usepackage{amsmath,amssymb}
 \usepackage{hyperref}
 \usepackage[utf8]{inputenc}
@@ -37,9 +37,9 @@
 \begin{document}
   \title{Título daaaaa Tese}
   \foreigntitle{Thesis Title}
-  \author{Nome do Autor}{Sobrenome}
-  \advisor{Prof.}{Nome do Primeiro Orientador}{Sobrenome}{D.Sc.}
-  \advisor{Prof.}{Nome do Segundo Orientador}{Sobrenome}{Ph.D.}
+  \author{Gabriela}{Muniz Telo Chaves}
+  \advisor{Prof.}{Antonio}{Petraglia}{Ph.D.}
+  \advisor{Prof.}{Fábio}{Sobrenome}{Ph.D.}
   \advisor{Prof.}{Nome do Terceiro Orientador}{Sobrenome}{D.Sc.}
 
   \examiner{Prof.}{Nome do Primeiro Examinador Sobrenome}{D.Sc.}
@@ -47,8 +47,8 @@
   \examiner{Prof.}{Nome do Terceiro Examinador Sobrenome}{D.Sc.}
   \examiner{Prof.}{Nome do Quarto Examinador Sobrenome}{Ph.D.}
   \examiner{Prof.}{Nome do Quinto Examinador Sobrenome}{Ph.D.}
-  \department{PEC}
-  \date{02}{2011}
+  \department{PEE}
+  \date{02}{2018}
 
   \keyword{Primeira palavra-chave}
   \keyword{Segunda palavra-chave}
@@ -82,8 +82,14 @@
   \printloabbreviations
 
   \mainmatter
-  \chapter{Introdu{\c c}\~ao}
+  \chapter{Introdução}
 
+  \section{Motivação}
+  
+  \section{Objetivo}
+  
+  \section{Divisão de capítulos}
+  
   Segundo a norma de formata{\c c}\~ao de teses e disserta{\c c}\~oes do
   Instituto Alberto Luiz Coimbra de P\'os-gradua{\c c}\~ao e Pesquisa de
   Engenharia (COPPE), toda abreviatura deve ser definida antes de
@@ -95,7 +101,17 @@
   \symbl{$\mathbb{R}$}{Conjunto dos n\'umeros reais}
   \symbl{$\emptyset$}{Conjunto vazio}
 
-  \chapter{Revis\~ao Bibliogr\'afica}
+  \chapter{Fundamentos teóricos}
+  
+  *O que são e como se comportam radionuclídeos
+  
+  *Por que é importante e como identificar radiação
+  
+  *Estado da técnica de identificação de radionuclideos e suas falhas
+  
+  *Identificação por detector+multicanal
+  
+  *Multicanal exige rapidez = paralelismo = FPGA
 
   Para ilustrar a completa ades\~ao ao estilo de cita{\c c}\~oes e listagem de
   refer\^encias bibliogr\'aficas, a Tabela~\ref{tab:citation} apresenta cita{\c
@@ -129,9 +145,10 @@
   \end{tabular}}
   \end{table}
 
-  \chapter{M\'etodo Proposto}
+  \chapter{Projeto}
   	\section{bla}
   		\subsection{aa}
+  		
   \chapter{Resultados e Discuss\~oes}
   \chapter{Conclus\~oes}
 
